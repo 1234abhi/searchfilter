@@ -1,0 +1,35 @@
+.outer1 {
+  /* border: 1px solid black; */
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  padding: 10px;
+  margin: 20px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.outer-layer {
+  display: flex;
+  justify-content: space-between;
+}
+.inner-layer {
+  display: flex;
+  gap: 50px;
+}
+.serial-title {
+  margin-top: 20px;
+}
+.serial-title span {
+  font-size: 14px;
+}
+.serial-title p {
+  font-size: 12px;
+  margin-top: 0;
+  color: grey;
+}
+img {
+  width: 70px;
+  height: 75px;
+  border-radius: 5px;
+}
